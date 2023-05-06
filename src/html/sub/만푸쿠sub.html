@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>상세페이지</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="time()">
+    <a href="https://hyunseo0.github.io/GachonBAP/"><img src="로고.png" width="130px" height="120px"></a>
+    <div id="outnav">
+      <div id="search_tab">
+          <input type = "text" id="title" placeholder = "검색어로 찾기">
+          <button id="button0">검색</button>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="pictures">
+		<img class="timg" src="img/j/만푸쿠/1.jfif" alt="사진">
+        <img class="timg" src="img/j/만푸쿠/2.jfif" alt="사진">
+        <img class="timg" src="img/j/만푸쿠/3.jfif" alt="사진">
+      </div>
+      <div id="infw">
+        <div id="w1">
+          <div>
+			<h2>만푸쿠</h2>
+			<h5>메뉴</h5>
+		  </div>
+		  <div id="menu">
+            <div><img class="menuimg" src="img/j/만푸쿠/m1.jfif" alt="메뉴"  onclick="window.open(this.src)"></div>
+            <div><img class="menuimg" src="img/j/만푸쿠/m2.jfif" alt="메뉴" onclick="window.open(this.src)"></div>
+		  </div>
+
+		  <div id="disqus_thread"></div>
+			<!--https://blog.naver.com/hkhaoo/222404169312
+            <script>
+			  (function() {
+			  var d = document, s = d.createElement('script');
+			  s.src = 'https://dwp-2.disqus.com/embed.js';
+			  s.setAttribute('data-timestamp', +new Date());
+			  (d.head || d.body).appendChild(s);
+			  })();
+			</script>
+			-->
+		  <div id="rev">
+        <div id="txtBox2">갈때마다 서비스 주셔서 감사합니다!</div>
+        <div id="txtBox2">사장님이 굉장히 밝아요!</div>
+        <div id="txtBox2">텐동이 진짜 맛있습니다</div>
+			  <form>
+              <p><textarea placeholder="후기를 남겨주세요."></textarea></p>
+              <p><input type="Submit" value="후기 남기기"></p>
+        </div>
+        </div>
+        <div id="w2">
+          <div id="now">
+            <h2 style="background-color:#4aa8d8;">운영시간</h2>
+			<p>매일 : 11:30 ~ 21:30</p>
+			<p>브레이크 타임 : 14:00 ~ 17:30</p>
+            <p>라스트 오더 : 14:00 , 21:00</p>
+			<p>정기휴무 : 매주 월요일</p>
+			<br>
+            <h2 style="background-color:#4aa8d8;">테이블 상황</h2>
+
+			<p id="text"> 양호 </p>
+			<div id="box"> </div>
+
+			<br>
+            <h2 style="background-color:#4aa8d8;">예상 조리 시간</h2>
+            <p>모든 메뉴 : 10~15분 </p>
+          </div>
+          <div id="evt">
+            <h2>진행중 이벤트</h2>
+			<p id="text2"><br><br></p>
+            <button id="button" type="button">정보 업데이트하기(사장님 전용)</button>
+            <!-- 정보 입력하는 창의 주소 필요 -->
+          </div>
+        </div>
+        <div id="w3">
+          <div id="mapimg">
+            <img id="mapimgid" src="img/j/만푸쿠/map.jpg" alt="위치 사진">
+            <!-- 필요하다면 js로 사진 슬라이드 기능 추가 -->
+          </div>
+          <div id="mapinf">
+            <h5>경기 성남시 수정구 성남대로 1334 경원프라자 2층 203호</h5>
+          </div>
+          <div id="txtBox">경원프라자 2층에 있어요</div>
+          <div id="txtBox">가천대역 1번 2번출구 바로 옆에 있습니다</div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>

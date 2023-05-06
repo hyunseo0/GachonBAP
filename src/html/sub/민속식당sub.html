@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>민속식당 상세페이지</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="time()">
+    <a href="https://hyunseo0.github.io/GachonBAP/"><img src="로고.png" width="130px" height="120px"></a>
+    <div id="outnav">
+      <div id="search_tab">
+          <input type = "text" id="title" placeholder = "검색어로 찾기">
+          <button id="button0">검색</button>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="pictures">
+		    <img class="timg" src="민속식당 01.jpg" alt="사진">
+        <img class="timg" src="민속식당 02.jpg" alt="사진">
+        <img class="timg" src="민속식당 03.jpg" alt="사진">
+      </div>
+      <div id="infw">
+        <div id="w1">
+          <div>
+			<h2>민속식당</h2>
+			<h5>메뉴</h5>
+		  </div>
+		  <div id="menu">
+            <div><img class="menuimg" src="민속식당 메뉴.jpg" alt="메뉴"  onclick="window.open(this.src)"></div>
+          </div>
+
+		  <div id="disqus_thread"></div>
+			<!--https://blog.naver.com/hkhaoo/222404169312
+            <script>
+			  (function() {
+			  var d = document, s = d.createElement('script');
+			  s.src = 'https://dwp-2.disqus.com/embed.js';
+			  s.setAttribute('data-timestamp', +new Date());
+			  (d.head || d.body).appendChild(s);
+			  })();
+			</script>
+			-->
+		  <div id="rev">
+        <div id="txtBox2">음식이 빨리 나와요!!</div>
+        <div id="txtBox2">백반 맛있어요</div>
+        <div id="txtBox2">굿굿~~~</div>
+			  <form>
+              <p><textarea placeholder="후기를 남겨주세요."></textarea></p>
+              <p><input type="Submit" value="후기 남기기"></p>
+        </div>
+        </div>
+        <div id="w2">
+          <div id="now">
+            <h2 style="background-color:#4aa8d8;">운영시간</h2>
+			<p>매일 10:00 - 21:00</p>
+            <br>
+            <h2 style="background-color:#4aa8d8;">테이블 상황</h2>
+
+			<p id="text"> 양호 </p>
+			<div id="box"> </div>
+
+			<br>
+            <h2 style="background-color:#4aa8d8;">예상 조리 시간</h2>
+            <p>순두부 5분 <br>된장찌개 5분 <br>닭볶음탕 15분 </p>
+          </div>
+          <div id="evt">
+            <h2>진행중 이벤트</h2>
+			<p id="text2"><br><br></p>
+            <button id="button" type="button">정보 업데이트하기(사장님 전용)</button>
+            <!-- 정보 입력하는 창의 주소 필요 -->
+          </div>
+        </div>
+        <div id="w3">
+          <div id="mapimg">
+            <img id="mapimgid" src="민속식당 02.jpg" alt="위치 사진">
+            <!-- 필요하다면 js로 사진 슬라이드 기능 추가 -->
+          </div>
+          <div id="mapinf">
+            <h5>복정 식당 거리에서 간판 따라서 주차장 안쪽</h5>
+          </div>
+          <div id="txtBox">주차장 안쪽에 있어요.</div>
+          <div id="txtBox">간판을 따라서 가세요.</div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>상세페이지</title>
+	<link rel="stylesheet" href="C:\Users\82103\workspace\web_termproject\교대\style.css">
+  </head>
+  <body onload="time()">
+    <a href="https://hyunseo0.github.io/GachonBAP/"><img src="C:\Users\82103\workspace\web_termproject\교대\로고.png" width="130px" height="120px"></a>
+    <div id="outnav">
+      <div id="search_tab">
+          <input type = "text" id="title" placeholder = "검색어로 찾기">
+          <button id="button0">검색</button>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="pictures">
+		    <img class="timg" src="C:\Users\82103\workspace\web_termproject\교대\교육대학원.jpg" alt="사진">
+      </div>
+      <div id="infw">
+        <div id="w1">
+          <div>
+			<h2>식당 이름</h2>
+			<h5>메뉴</h5>
+		  </div>
+		  <div id="menu">
+            <div><img class="menuimg" src="C:\Users\82103\workspace\web_termproject\교대\교대메뉴.jpg" alt="메뉴"  onclick="window.open(this.src)"></div>
+            
+          </div>
+
+		  <div id="disqus_thread"></div>
+			<!--https://blog.naver.com/hkhaoo/222404169312
+            <script>
+			  (function() {
+			  var d = document, s = d.createElement('script');
+			  s.src = 'https://dwp-2.disqus.com/embed.js';
+			  s.setAttribute('data-timestamp', +new Date());
+			  (d.head || d.body).appendChild(s);
+			  })();
+			</script>
+			-->
+		  <div id="rev">
+        <div id="txtBox2">한식 위주라 좋아요</div>
+        <div id="txtBox2">저녁이 조금 비싸요</div>
+        <div id="txtBox2">공간이 넓어요</div>
+			  <form>
+              <p><textarea placeholder="후기를 남겨주세요."></textarea></p>
+              <p><input type="Submit" value="후기 남기기"></p>
+        </div>
+        </div>
+        <div id="w2">
+          <div id="now">
+            <h2 style="background-color:#4aa8d8;">운영시간</h2>
+			<p>점심 11:30 ~ 14:00(5000원)<br>저녁 17:30 ~ 19:00(8000원)</p>
+            <br>
+            <h2 style="background-color:#4aa8d8;">테이블 상황</h2>
+
+			<p id="text"> 바쁨 </p>
+			<div id="box"> </div>
+
+			<br>
+            <h2 style="background-color:#4aa8d8;">예상 조리 시간</h2>
+            <p>오늘의 학식 3분</p>
+          </div>
+          <div id="evt">
+            <h2>진행중 이벤트</h2>
+			<p id="text2"><br><br></p>
+            <button id="button" type="button">정보 업데이트하기(사장님 전용)</button>
+            <!-- 정보 입력하는 창의 주소 필요 -->
+          </div>
+        </div>
+        <div id="w3">
+          <div id="mapimg">
+            <img id="mapimgid" src="C:\Users\82103\workspace\web_termproject\교대\교대 위치.jpg" alt="위치 사진">
+            <!-- 필요하다면 js로 사진 슬라이드 기능 추가 -->
+          </div>
+          <div id="mapinf">
+            <h5>교육대학원 지하 1층</h5>
+          </div>
+          <div id="txtBox">교육대학 건물 입구 들어가서 계단 타고 내려가면 있어요</div>
+          <div id="txtBox">중도 가는 길에 교대 있어요</div>
+          <div id="txtBox">AI관에서 5분 거리에요</div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>

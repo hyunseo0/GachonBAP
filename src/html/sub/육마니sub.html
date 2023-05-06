@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>육마니 상세페이지</title>
+	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="time()">
+    <a href="https://hyunseo0.github.io/GachonBAP/"><img src="로고.png" width="130px" height="120px"></a>
+    <div id="outnav">
+      <div id="search_tab">
+          <input type = "text" id="title" placeholder = "검색어로 찾기">
+          <button id="button0">검색</button>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="pictures">
+		    <img class="timg" src="육마니01.jpg" alt="사진">
+        <img class="timg" src="육마니02.jpg" alt="사진">
+        <img class="timg" src="육마니03.jpg" alt="사진">
+      </div>
+      <div id="infw">
+        <div id="w1">
+          <div>
+			<h2>육마니</h2>
+			<h5>메뉴</h5>
+		  </div>
+		  <div id="menu">
+            <div><img class="menuimg" src="육마니 메뉴.jpg" alt="메뉴"  onclick="window.open(this.src)"></div>
+          </div>
+
+		  <div id="disqus_thread"></div>
+			<!--https://blog.naver.com/hkhaoo/222404169312
+            <script>
+			  (function() {
+			  var d = document, s = d.createElement('script');
+			  s.src = 'https://dwp-2.disqus.com/embed.js';
+			  s.setAttribute('data-timestamp', +new Date());
+			  (d.head || d.body).appendChild(s);
+			  })();
+			</script>
+			-->
+		  <div id="rev">
+        <div id="txtBox2">육칼이랑 설렁탕 매일 먹어요.</div>
+        <div id="txtBox2">만족스럽습니다.</div>
+        <div id="txtBox2">짱짱! 가성비도 좋아요.</div>
+			  <form>
+              <p><textarea placeholder="후기를 남겨주세요."></textarea></p>
+              <p><input type="Submit" value="후기 남기기"></p>
+        </div>
+        </div>
+        <div id="w2">
+          <div id="now">
+            <h2 style="background-color:#4aa8d8;">운영시간</h2>
+			<p>월 ~ 금 09:00 - 22:00 <br>토,일 10:00 - 22:00</p>
+            <br>
+            <h2 style="background-color:#4aa8d8;">테이블 상황</h2>
+
+			<p id="text"> 양호 </p>
+			<div id="box"> </div>
+
+			<br>
+            <h2 style="background-color:#4aa8d8;">예상 조리 시간</h2>
+            <p>육개장 10분 <br>보쌈한판 13분 <br>설렁탕 10분 </p>
+          </div>
+          <div id="evt">
+            <h2>진행중 이벤트</h2>
+			<p id="text2"><br><br></p>
+            <button id="button" type="button">정보 업데이트하기(사장님 전용)</button>
+            <!-- 정보 입력하는 창의 주소 필요 -->
+          </div>
+        </div>
+        <div id="w3">
+          <div id="mapimg">
+            <img id="mapimgid" src="육마니02.jpg" alt="위치 사진">
+            <!-- 필요하다면 js로 사진 슬라이드 기능 추가 -->
+          </div>
+          <div id="mapinf">
+            <h5>복정동 식당 많은 곳</h5>
+          </div>
+          <div id="txtBox">캠퍼 맞은편 대각선에 있어요</div>
+          <div id="txtBox">금탑부동산 맞은편에 있어요</div>
+          <div id="txtBox">밖에 큰 풍선 인형이 서있어요</div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>
